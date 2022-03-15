@@ -1,0 +1,27 @@
+Colum,df.dtypes,df.nunique(),df.isnull().sum(),df['pcv'].value_counts(),Comments 
+id,int64,400,0,,All Good 
+age,float64,76,9,,Null values are present and as it was float can be replaced with mean 
+bp,float64,10,12,,Null values are present and as it was float can be replaced with mean 
+sg,float64,5,47,,Null values are present and as it was float can be replaced with mean 
+al,float64,6,46,,Null values are present and as it was float can be replaced with mean 
+su,float64,6,49,,Null values are present and as it was float can be replaced with mean 
+rbc,object,2,152,201/47,we are missing quite a few should discuss 
+pc,object,2,65,259/76 ,normal vs abnormal missing 65 change to normal ???
+pcc,object,2,4,354/52,notpresent/present missing only 4 change to not present ??? 
+ba,object,2,4,374/22,notpresent/present missing only 4 change to not present ??? 
+bgr,float64,146,44,,Null values are present and as it was float can be replaced with mean 
+bu,float64,118,19,,Null values are present and as it was float can be replaced with mean 
+sc,float64,84,17,,Null values are present and as it was float can be replaced with mean 
+sod,float64,34,87,,Null values are present and as it was float can be replaced with mean 
+pot,float64,40,88,,Null values are present and as it was float can be replaced with mean 
+hemo,float64,115,52,,Null values are present and as it was float can be replaced with mean 
+pcv,object,44,70,,should be number after removing weird things change to mean ???
+wc,object,92,105,,should be number after removing weird things change to mean ???
+rc,object,49,130,,should be number after removing weird things change to mean ???
+htn,object,2,2,251/147 no/yes,its yes or no and only one value is missing change to no ?
+dm,object,5,2,260/138 no/yes ,weird valus \t no \t yes should change to correct onces amd missing change to no ?
+cad,object,3,2,364/34 no/yes,there is two with \tno shouls change to no and for missing change to no ? 
+appet,object,2,1,no/yes is 317/82,its yes or no and only one value is missing change to no ?
+pe,object,2,1,no/yes is 323/76,its yes or no and only one value is missing change to no ?
+ane,object,2,1,no/yes is 339/60,its yes or no and only one value is missing change to no ?
+classification,object,3,0,,there is one value with ckd\t shoud change to ckd 
